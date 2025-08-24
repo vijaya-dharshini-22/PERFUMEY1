@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+h1,li,ul{
+   display: inline;    
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: grey;
+}
+li:hover{
+    color: white;
+}
+.Searchbar{
+    padding: 50px;
+    text-align: center;
+}
+.Searchbar input{
+     height: 30px;
+     margin-left: 20px;
+    width: 60%;
+    border-radius: 5px; 
+}
+.one,.two,.three{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display:inline-block;
+    width: 220px;
+}
+.one:hover,.two:hover,.three:hover{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 220px;
+    height: 300px;
+}
+.Body{
+ text-align: center;
+}
+
+.About{
+    text-align: center;
+    padding: 25px;
+}
+.Footer{
+    padding: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
